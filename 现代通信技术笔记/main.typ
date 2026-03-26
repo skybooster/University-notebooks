@@ -50,11 +50,11 @@
 #grid(
   columns: (1fr, 1fr), // 两列等宽
   figure(
-    image("/fig/Snipaste_2026-03-25_22-24-11.png", width: 83%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-25_22-24-11.png", width: 83%),
     caption: [人类听觉的等响曲线 (a)，来源与internet],
   ),
   figure(
-    image("/fig/Snipaste_2026-03-25_23-01-58.png", width: 83%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-25_23-01-58.png", width: 83%),
     caption: [人类听觉的等响曲线 (b)],
   ),
 )
@@ -66,11 +66,11 @@
 #grid(
   columns: (1fr, 1fr), // 两列等宽
   figure(
-    image("/fig/Snipaste_2026-03-25_23-27-51.png", width: 100%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-25_23-27-51.png", width: 100%),
     caption: [人类听觉的频域遮蔽效应],
   ),
   figure(
-    image("/fig/Snipaste_2026-03-25_23-28-05.png", width: 81%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-25_23-28-05.png", width: 81%),
     caption: [人类听觉的时域遮蔽效应],
   ),
 )
@@ -167,11 +167,11 @@ $
 #grid(
   columns: (1fr, 1fr), // 两列等宽
   figure(
-    image("/fig/Snipaste_2026-03-26_13-48-33.png", width: 95%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_13-48-33.png", width: 95%),
     caption: [同步时分复用信号],
   ),
   figure(
-    image("/fig/Snipaste_2026-03-26_13-48-50.png", width: 105%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_13-48-50.png", width: 105%),
     caption: [统计时分复用信号],
   ),
 )
@@ -194,7 +194,7 @@ $
 == OSI七层模型概述
 #indent OSI七层模型是指开放系统互联（Open Systems Interconnection, OSI）模型，是一种网络通信协议的分层模型，旨在促进不同网络设备和协议之间的互操作性。OSI七层模型将网络通信过程分为七个层次，每个层次负责不同的功能和服务，分别为物理层、数据链路层、网络层、传输层、会话层、表示层和应用层。每个层次都有其特定的功能和协议。OSI七层模型为网络通信提供了一个标准化的框架，使得不同厂商的设备和协议能够互相兼容，从而促进了网络技术的发展和普及。
 #figure(
-    image("/fig/Snipaste_2026-03-26_14-22-12.png", width: 70%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_14-22-12.png", width: 70%),
     caption: [OSI七层模型],
 )
 #indent 物理层的作用是为了向上面的数据链路层提供一个物理的传输媒质，以便“透明”的传输比特流，所谓“透明”就是不改变任何数据的进行传输，好像数据在物理媒体上直接传输一样，#highlight[物理层中传输的数据单位为比特]。
@@ -211,7 +211,7 @@ $
 
 OSI模型中信息传递的过程如下图所示：
 #figure(
-    image("/fig/Snipaste_2026-03-26_15-27-55.png", width: 70%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_15-27-55.png", width: 70%),
     caption: [OSI模型中信息传递的过程],
 )
 #indent 在信息传递的过程中，数据从发送端的应用层开始逐层向下传递，每一层都会对数据进行封装，添加相应的头部信息，最终在物理层以比特流的形式进行传输。在接收端，数据从物理层开始逐层向上传递，每一层都会对数据进行解封装，去掉相应的头部信息，最终在应用层得到原始的数据。通过这种分层的方式，OSI模型实现了不同网络设备和协议之间的互操作性，从而促进了网络技术的发展和普及。
@@ -239,7 +239,7 @@ OSI模型中信息传递的过程如下图所示：
 === 交换系统的数学模型
 交换系统的数学模型可以用图论来描述，交换系统可以看作是一个有$M$个入线端口、$N$个出线端口的黑箱器件。如下图所示：
 #figure(
-    image("/fig/Snipaste_2026-03-26_15-57-52.png", width: 70%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_15-57-52.png", width: 70%),
     caption: [交换系统的数学模型],
 )
 #indent 依据这个模型，可以定义交换系统的入线集合与出线集合，分别为
@@ -277,7 +277,7 @@ delta(000) = 001
 $
 #indent 类似如下图所示的连接关系，可以写出连接函数
 #figure(
-    image("/fig/Snipaste_2026-03-26_16-21-12.png", width: 30%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_16-21-12.png", width: 30%),
     caption: [连接函数的示例],
 )
 $
@@ -295,7 +295,7 @@ $
 
 比如下面有一个一个$n m × n m$的两级交换网络，它的第 $1$ 级是由$m$个$n×n$的交换单元构成，第 $2$ 级是由$n$个$m×m$的交换单元构成，第 $1$ 级同一交换单元的不同编号的出线分别接到第 $2$ 级不同交换单元的相同编号的入线上。交换网络的nm条入线中的任何一条均可与nm条出线中的任一条接通，因而它相当于一个$n m × n m$的单级交换网络。
 #figure(
-  image("/fig/Snipaste_2026-03-26_16-44-24.png",width: 80%),
+  image("/现代通信技术笔记/fig/Snipaste_2026-03-26_16-44-24.png",width: 80%),
   caption: [$m n × m n$交换网络架构]
 )
 
@@ -307,18 +307,18 @@ $
 === 信令/协议功能
 #indent 信令是指通信系统中的控制信令，可以在指定的终端之间建立临时的通信信道，并维护网络本身的正常运行。下面是一个固定电话中信令传输的简单流程。
 #figure(
-  image("/fig/Snipaste_2026-03-26_16-54-32.png",width: 80%),
+  image("/现代通信技术笔记/fig/Snipaste_2026-03-26_16-54-32.png",width: 80%),
   caption: [PSTN中信令传输的简单流程]
 )
 #indent 信令按照传输时使用的通路不同可以分为随路信令与共路信令。随路信令与话音数据公用一个传输通路，共路信令则有专门的信令数据传输通道。
 #grid(
   columns: (1fr, 1fr), // 两列等宽
   figure(
-    image("/fig/Snipaste_2026-03-26_16-59-45.png", width: 90%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_16-59-45.png", width: 90%),
     caption: [随路信令],
   ),
   figure(
-    image("/fig/Snipaste_2026-03-26_16-59-54.png", width: 100%),
+    image("/现代通信技术笔记/fig/Snipaste_2026-03-26_16-59-54.png", width: 100%),
     caption: [共路信令],
   ),
 )
