@@ -1,4 +1,6 @@
 #import "@preview/mousse-notes:1.1.0": *
+#import "@preview/cuti:0.3.0": show-cn-fakebold
+#show: show-cn-fakebold
 #set page(paper: "us-letter")
 
 //段落缩进显示
@@ -327,3 +329,4 @@ $
 #indent 交换系统连接的建立和拆除大部分都是在自动控制的前提下进行的，因此控制功能对于交换机系统来说不可或缺。控制功能一般采用软件实现。
 
 = 电路交换技术详述
+#indent 时间交换器与空间交换器，也称之为T交换器和S交换器，以及一般PSTN网络中常用的TST交换器。

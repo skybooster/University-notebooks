@@ -1,4 +1,6 @@
 #import "@preview/mousse-notes:1.1.0": *
+#import "@preview/cuti:0.3.0": show-cn-fakebold
+#show: show-cn-fakebold
 #set page(paper: "us-letter")
 
 //段落缩进显示
@@ -21,6 +23,5 @@
 )
 
 = 信源编码理论
-
-信源编码
+#indent 我们在上学期讨论的离散信源，实际上是一个具有有限符号集、各个符号独立等概的一个理想信源。
 
