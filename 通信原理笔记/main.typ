@@ -7,7 +7,7 @@
 #set par(first-line-indent: 2em)
 
 #show: book.with(
-  title: [通信原理],
+  title: [通信原理筆記],
   subtitle: [Principles of Communication],
   subsubtitle: [
     平时笔记, 2026年春季学期

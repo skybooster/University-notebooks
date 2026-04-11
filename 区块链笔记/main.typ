@@ -7,7 +7,7 @@
 #set par(first-line-indent: 2em)
 
 #show: book.with(
-  title: [區塊鏈原理與技術],
+  title: [區塊鏈原理與技術筆記],
   subtitle: [Principles and Technology of Blockchain],
   subsubtitle: [
     平时笔记, 2026年春季学期
